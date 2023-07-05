@@ -14,6 +14,38 @@ System.out.println(e.dept());
 e.empName("mounika");
 	}
 	
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public double getEmpSalary() {
+		return empSalary;
+	}
+
+	public void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+
+	public String getEmpDept() {
+		return empDept;
+	}
+
+	public void setEmpDept(String empDept) {
+		this.empDept = empDept;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public double calculateSalary(double sal) {
 		return sal*12;
 	}
